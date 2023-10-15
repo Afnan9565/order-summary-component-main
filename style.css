@@ -94,6 +94,8 @@ h4, .para{
 }
 .payment:hover{
     cursor: pointer;
+    background-color: #3829e094;
+
 }
 .cancel{
     width: 100%;
@@ -107,4 +109,7 @@ h4, .para{
 }
 .cancel:hover{
     cursor:pointer
+}
+.cancel:hover{
+    color: black;
 }
