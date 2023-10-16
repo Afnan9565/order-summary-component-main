@@ -113,3 +113,42 @@ h4, .para{
 .cancel:hover{
     color: black;
 }
+/* ----------------------------------------
+          RESPONSIVENESS
+---------------------------------------- */
+@media screen and (max-width: 890px) {
+    .box{
+        width:40%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .box{
+        width:40%;
+    }
+    .body-content{
+        padding: 0rem 1.5rem 0rem;
+    }
+}
+@media screen and (max-width: 645px) {
+    .box{
+        width:70%;
+    }
+    .body-content{
+        padding: 0rem 1.5rem 0rem;
+    }
+}
+@media screen and (max-width: 645px) {
+    .box{
+        width:98%;
+    }
+    .body-content{
+        padding: 0rem 3rem 0rem;
+    }
+    .body-para{
+        margin-bottom: 2rem;
+    }
+    .body-pricing{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
