@@ -146,9 +146,20 @@ h4, .para{
     }
     .body-para{
         margin-bottom: 2rem;
+        margin-top: 1rem;
     }
     .body-pricing{
         margin-top: 2rem;
         margin-bottom: 2rem;
+    }
+    .cancel{
+        margin-top: 1.5rem;
+        /* margin-bottom: 2rem; */
+    }
+    .payment{
+        margin-top: 1rem;
+    }
+    .hero-img{
+        height: 30%rem;
     }
 }
